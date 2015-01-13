@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DrawAllocation">
+        <ignore path="src/rdc/jim/view/CustomImageView.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/rdc/jim/wifip2p_coursework/MainActivity.java" />
+    </issue>
+    <issue id="UseSparseArrays">
+        <ignore path="src/rdc/jim/wifip2p_coursework/P2PManager.java" />
+    </issue>
+</lint>

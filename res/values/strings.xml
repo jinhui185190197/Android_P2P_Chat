@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WifiP2P_CourseWork</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="default_title">暂无对象</string>
+    <string name="default_input">请输入内容</string>
+    <string name="sendbtn_text">发送</string>
+    <string name="group_sentbtn_text">群发</string>
+    <string name="nick_name_hint">请输入你的昵称</string>
+    <string name="index_submit">确定</string>
+    <string name="file_select">文件</string>
+    
+
+</resources>

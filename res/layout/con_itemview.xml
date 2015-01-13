@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 连接列表项布局 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhy="http://schemas.android.com/apk/res/rdc.jim.wifip2p_coursework"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <rdc.jim.view.CustomImageView 
+        android:id="@+id/con_icon_iv"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        zhy:borderRadius="30dip"
+        zhy:type="circle"
+        zhy:src="@drawable/me"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        android:layout_alignParentLeft="true"
+        />
+    
+    <TextView 
+        android:id="@+id/con_name_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/con_icon_iv"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dip"
+        android:textSize="20sp"
+        android:text="JIm"/>
+    
+
+</RelativeLayout>
